@@ -80,4 +80,22 @@ jumlah_angka2 = data.count(2)
 print(f"Jumlah angka 4 pada data: {jumlah_angka4}")
 print(f"Jumlah angka 2 pada data: {jumlah_angka2}")
 
+# Mengetahui urutan ke berapa suatu data (dalam index)
+data_baru = ["kjak", "laiq", "kali"]
+data_index = data_baru.index("kjak")
+print(f"Data kjak ada pada urutan ke-{data_index}")
+
+# Mengurutkan/merapihkan data A-Z atau 0-9
+data = [1,2,3,4,5,6,2,2,2,23,4,2,42,34,14,33,2,1]
+data.sort()
+data_baru.sort()
+print(f"Data setelah disort: {data}")
+print(f"Data setelah disort: {data_baru}")
+
+# Mereverse data yang udah diurutkan
+data.reverse()
+data_baru.reverse()
+print(f"Data setelah direverse: {data}")
+print(f"Data setelah direverse: {data_baru}")
+
 
