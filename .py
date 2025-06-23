@@ -73,6 +73,11 @@ print(f"Data awal: {data_baru}")
 data_baru.pop()
 print(f"Data yg diubah: {data_baru}")
 
-
+# Mengetahui jumlah dari suatu data yang sama
+data = [1,2,3,4,5,6,2,2,2,23,4,2,42,34,14,33,2,1]
+jumlah_angka4 = data.count(4)
+jumlah_angka2 = data.count(2)
+print(f"Jumlah angka 4 pada data: {jumlah_angka4}")
+print(f"Jumlah angka 2 pada data: {jumlah_angka2}")
 
 
