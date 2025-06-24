@@ -96,6 +96,11 @@ print(f"Data setelah disort: {data_baru}")
 data.reverse()
 data_baru.reverse()
 print(f"Data setelah direverse: {data}")
-print(f"Data setelah direverse: {data_baru}")
+print(f"Data setelah direverse: {data_baru}" + "\n")
+
+# Enumeret List
+angka = [1,2,3,4,5,6,7]
+
+[print(f"angka = {i}" for i in angka)]
 
 
